@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Odoo",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/odoo-bin",
+        "args": [
+          "--config=${workspaceFolder}/odoo.conf"
+        ],
+        "env": {
+          "HOST": "db",
+          "USER": "odoo",
+          "PASSWORD": "odoo"
+        },
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  
